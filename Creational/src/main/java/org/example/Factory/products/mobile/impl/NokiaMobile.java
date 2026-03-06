@@ -1,6 +1,8 @@
-package org.example.Factory;
+package org.example.Factory.products.mobile.impl;
 
-public class NokiaMobile implements Mobile{
+import org.example.Factory.products.mobile.Mobile;
+
+public class NokiaMobile implements Mobile {
     @Override
     public void displayOnButton() {
 

@@ -1,4 +1,4 @@
-package org.example.Factory;
+package org.example.Factory.products.laptop;
 
 public interface Laptop {
     void displayOnButton();

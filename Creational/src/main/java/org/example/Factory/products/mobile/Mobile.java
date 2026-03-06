@@ -1,4 +1,4 @@
-package org.example.Factory;
+package org.example.Factory.products.mobile;
 
 public interface Mobile {
     void displayOnButton();

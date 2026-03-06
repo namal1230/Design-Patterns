@@ -1,6 +1,8 @@
-package org.example.Factory;
+package org.example.Factory.products.laptop.impl;
 
-public class AsusLaptop implements Laptop{
+import org.example.Factory.products.laptop.Laptop;
+
+public class AsusLaptop implements Laptop {
     @Override
     public void displayOnButton() {
 
