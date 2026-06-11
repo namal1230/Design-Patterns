@@ -20,7 +20,7 @@ public class NotificationService {
         customer.get(eventType).remove(listener);
     }
 
-    public void notify(Event eventType){
+    public void notifyObservers(Event eventType){
         customer.get(eventType).forEach(listener->listener.update(eventType));
     }
 }

@@ -10,6 +10,7 @@ public class MobileAppListener implements Observer{
 
     @Override
     public void update(Event event) {
-
+        System.out.println("Mobile notification for " + username +
+                " -> Event: " + event);
     }
 }

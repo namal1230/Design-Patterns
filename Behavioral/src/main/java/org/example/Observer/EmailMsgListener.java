@@ -1,7 +1,5 @@
 package org.example.Observer;
 
-import java.util.EventListener;
-
 public class EmailMsgListener implements Observer {
     private final String email;
 
@@ -11,6 +9,7 @@ public class EmailMsgListener implements Observer {
 
     @Override
     public void update(Event event) {
-
+        System.out.println("Email sent to " + email +
+                " -> Event: " + event);
     }
 }
